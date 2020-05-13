@@ -92,7 +92,11 @@ export const MENU: MenuEntry[] = [
     M(
         "Languages & Frameworks",
         "languages-and-frameworks",
-        [
+        [   
+            M(
+                "JavaScript",
+                "javascript-in-gitpod"
+            ),
             M(
                 "Python",
                 "languages/python"
